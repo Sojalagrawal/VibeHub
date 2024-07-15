@@ -20,7 +20,7 @@ export default function SignIn() {
    const notifyB=(msg)=>toast.success(msg);
 
   const postData=()=>{
-    fetch("http://localhost:5000/signin",{
+    fetch("/signin",{
          method:"post",
          headers:{
               "Content-Type":"application/json"

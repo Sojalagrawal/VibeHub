@@ -11,7 +11,7 @@ export default function Search() {
         console.log(abc);
         
         if(Username){
-            fetch(`http://localhost:5000/searchUser/${Username}`,{
+            fetch(`/searchUser/${Username}`,{
                 method:"get",
                 headers:{
                     "Content-Type":"application/json",

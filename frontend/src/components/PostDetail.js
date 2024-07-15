@@ -48,7 +48,7 @@ export default function PostDetail({ item, setItem, allposts, setAllposts, user,
     };
 
     const removePost = (postId) => {
-        fetch(`http://localhost:5000/deletePost/${postId}`, {
+        fetch(`/deletePost/${postId}`, {
             method: "delete",
             headers: {
                 Authorization: "Bearer " + localStorage.getItem("jwt")
@@ -63,7 +63,7 @@ export default function PostDetail({ item, setItem, allposts, setAllposts, user,
     }
 
     const makeComment = (text, id) => {
-        fetch("http://localhost:5000/comment", {
+        fetch("/comment", {
             method: "put",
             headers: {
                 "Content-type": "application/json",
@@ -83,7 +83,7 @@ export default function PostDetail({ item, setItem, allposts, setAllposts, user,
     }
 
     const updateCaption = (newBody, postId) => {
-        fetch(`http://localhost:5000/editCaption/${postId}`, {
+        fetch(`/editCaption/${postId}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
