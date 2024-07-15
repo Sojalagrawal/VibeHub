@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  /* background-image: url('https://t3.ftcdn.net/jpg/08/02/32/28/240_F_802322873_IsrSb8MCyfOSS9Byy2ydhlegvxmYbrID.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+

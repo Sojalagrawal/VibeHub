@@ -1,0 +1,53 @@
+.outside{
+    background-image: url('https://t3.ftcdn.net/jpg/08/02/32/28/240_F_802322873_IsrSb8MCyfOSS9Byy2ydhlegvxmYbrID.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100vw;
+    height:93vh;
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+.userSearch{
+    /* border: 2px solid green; */
+    width:500px;
+    display:flex;
+    flex-direction: column;
+}
+.user_display{
+    height:200px;
+    border: 2px solid black;
+    width:100%;
+    overflow:auto;
+    border-radius: 10px;
+    
+
+}
+.input_user{
+    width:100%;
+    
+}
+.input_user input{
+    border-radius: 5px;
+    background-color: transparent;
+    color:rgb(234, 224, 224);
+}
+.input_user input::placeholder{
+    color:rgb(221, 208, 208);
+}
+.user_pic{
+    width: 30px;
+    height:30px;
+    border-radius: 40px;
+}
+.user_info{
+    margin:20px;
+    display:flex;
+    
+}
+.user_info div{
+    margin-left:20px;
+}

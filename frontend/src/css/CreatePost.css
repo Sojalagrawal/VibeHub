@@ -1,0 +1,74 @@
+.createPost{
+    
+    max-width: 500px;
+    margin:10px auto;
+    border:1px solid rgb(173,173,173);
+    border-radius: 5px;
+    margin-bottom: 80px;
+    position:relative;
+
+}
+
+.main-div{
+    border-top:1px solid rgb(173,173,173) ;
+    border-bottom:1px solid rgb(173,173,173) ;
+    text-align: center;
+    /* border: 5px solid black; */
+}
+
+
+
+  
+
+.post-header{
+    display:flex;
+
+}
+#post-btn{
+    border:none;
+    color:#339ce3;
+    background: none;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.details{
+    width:100%;
+
+}
+textarea{
+    max-width:97%;
+    border:0.5px solid black;
+    margin:3px;
+    outline:none;
+}
+#output{
+    max-width: 300px; /* Set the maximum width for the image */
+    max-height: 300px; /* Set the maximum height for the image */
+    width: 300px; 
+    height: 300px; 
+    object-fit: contain; /* Scale the image to fit within the container */
+    border: 1px solid black;
+    margin-top: 5px;
+
+}
+
+.date-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.date-option select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.date-option input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+

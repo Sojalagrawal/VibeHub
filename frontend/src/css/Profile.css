@@ -1,0 +1,79 @@
+
+.profile{
+    max-width:650px;
+    margin:10px auto;
+    margin-bottom: 100px;
+}
+.profile-frame{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-pic>img{
+    width:160px;
+    height:160px;
+    object-fit: contain;
+    border-radius: 100px;
+}
+.profile-pic{
+    height: fit-content;
+}
+
+.profile-data{
+    text-align:left;
+    padding:0px 10px;
+    margin:0px 20px;
+
+}
+.profile-info p{
+    padding:4px 5px;
+}
+.gallery{
+    display:flex;
+    /* height:60vh; */
+    flex-wrap:wrap;
+    text-align:center;
+    /* overflow-y: auto; */
+    /* border:1px solid red */
+}
+
+.gallery img{
+    width:30%;
+    height:250px;
+    margin:10px;
+}
+
+.followBtn{
+    cursor:pointer;
+    font-weight:bolder;
+    padding:13px 25px;
+    font-size:0.7rem;
+    border:none;
+    color:white;
+    background-color: rgb(0, 0, 255);
+    border-radius: 15px;
+    margin-left:20px;
+    transition:all 0.25s ease;
+}
+
+.followBtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px -10px blue;
+}
+
+/* css for profilepic comp */
+.changePic{
+    background-color: white;
+    border-radius: 10px;
+}
+.changePic div{
+    padding:15px 80px;
+}
+.upload-btn{
+    cursor:pointer;
+    background: none;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+
+}

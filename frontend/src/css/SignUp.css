@@ -1,0 +1,67 @@
+.signUp{
+    background-image: url('https://t3.ftcdn.net/jpg/08/02/32/28/240_F_802322873_IsrSb8MCyfOSS9Byy2ydhlegvxmYbrID.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:93vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: #fff6;
+    padding: 30px;
+    border:1px solid black;
+    border-radius:1px;
+}
+
+.signUpLogo{
+    width:180px;
+    object-fit: contain;
+    padding: 1px 0px;
+}
+
+.loginPara{
+    color:rgba(var(--f52,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin:0px 40px 20px 40px;
+    box-sizing: border-box;
+}
+
+input{
+    padding:5px;
+    margin:3px 0px;
+    outline:none;
+    font-size: 16px;
+    width:100%;
+
+}
+
+.form>div{
+    width:80%;
+    margin:auto;
+}
+
+#submit-btn{
+    background-color: #1773eA;
+    border:none;
+    border-radius: 3px;
+    color:white;
+    font-size: bold;
+    padding: 5px 10px;
+    /* width:80%; */
+    cursor:pointer;
+    margin-top:8px;
+
+}
+    .form2{
+        background-color: #fff6;
+        padding: 30px;
+        margin-top:5px;
+        border: 1px solid black;
+        border-radius: 3px;
+
+    }

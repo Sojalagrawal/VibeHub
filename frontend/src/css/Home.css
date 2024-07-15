@@ -1,0 +1,169 @@
+.home{
+    overflow-y: scroll;
+    max-height: 90vh;
+    height: calc(100vh - 50px); /* Adjust the height based on the navbar height */
+}
+
+.card{
+    max-width: 500px;
+    height:max-content;
+    margin:25px auto;
+    border:1px solid rgb(173,173,173);
+    border-radius: 5px;
+}
+
+.card-header{
+    display:flex;
+}
+
+.card-header > h5{
+    margin:0px;
+    padding:11px;
+}
+
+.card-pic img{
+    
+    width:30px;
+    height:30px;
+    border-radius: 300px;
+    object-fit:contain; /* resized to fit its container.*/
+    padding: 5px; 
+}
+
+.card-image img{
+    /* to get equal card length and width */
+    max-height:500px;
+    max-width:500px;
+    height:400px;
+    width:500px;
+    /* width:100%; */
+    object-fit: contain; 
+    object-position: center; 
+}
+.card-content{
+    text-align:left;
+    line-height: 4px; /*the vertical distance between two lines */
+    padding:3px 10px; 
+    border-bottom:1px solid rgb(173,173,173);
+}
+.add-comment{
+    display: flex;
+    align-items:center;
+    position: relative;
+}
+
+.add-comment input {
+    margin:0px;
+    outline: none;
+    border:none;
+    padding:10px;
+}
+
+.comment{
+    border:none;
+    background-color: none;
+    font-weight: bold;
+    cursor:pointer;
+    color:#4194cb
+}
+.material-symbols-outlined-red{
+  color:red;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined{
+    cursor:pointer
+}
+
+
+
+.showComment{
+    width:100vw;
+    min-height:100vh;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color: rgba(16,13,13,0.4);
+    /* display:none; */
+}
+
+.container{
+    display:flex;
+    width:80%;
+    background-color: white;
+    position: absolute;
+    top:10%;
+    left:10%;
+    height:500px;
+}
+
+.postPic{
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:50%
+    
+}
+
+.postPic img{
+    object-fit: contain; /*aspect ratio khrab na ho*/
+    width: 100%;
+    /* max-height:250px; */
+}
+
+.details{
+    width:50%;
+    height:inherit;  /*parent ki height inherit krega*/
+    display:flex;
+    flex-direction: column;
+}
+
+.comment-section{
+    flex-grow:4;
+    text-align: left;
+    margin-left:10px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.close-comment{
+    position:fixed;
+    top:1%;
+    right:5%;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.material-symbols-outlined-comment {
+    font-size: 35px;
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+.emoji-palette1{
+    position: absolute;
+    bottom:8%;
+}
+.emoji-palette2{
+    position:absolute;
+    bottom:40px;
+
+}
+/* .close-comment{
+    position:absolute;
+    top:-4%;    jb mene show comment ko container div ke andar leliya
+    right:-3%;
+    color:rgb(183, 62, 62);
+    border:none;
+    cursor:pointer;
+} */
+
+
